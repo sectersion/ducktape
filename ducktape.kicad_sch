@@ -4061,16 +4061,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MF" "Winbond Electronics"
+			(property "Description" "3v 16m-Bit Serial Flash Memory With Dual"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4080,7 +4071,7 @@
 					(hide yes)
 				)
 			)
-			(property "DESCRIPTION" "3v 16m-Bit Serial Flash Memory With Dual"
+			(property "MF" "Winbond Electronics"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4342,131 +4333,6 @@
 						(effects
 							(font
 								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "power:+3.3V"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+3.3V"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+3.3V_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+3.3V_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
 							)
 						)
 					)
@@ -5082,12 +4948,6 @@
 		(uuid "6c32defb-fec0-432d-aaff-0393d32e97b2")
 	)
 	(junction
-		(at 223.52 60.96)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a4bff0f6-51a7-4a64-8e51-9fe462655992")
-	)
-	(junction
 		(at 157.48 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5134,6 +4994,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ef3fff8f-3718-4b0d-8278-8fede10a596f")
+	)
+	(junction
+		(at 236.22 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f03e0aa9-0d2f-48cd-8787-87a16c17b765")
 	)
 	(junction
 		(at 59.69 62.23)
@@ -5423,6 +5289,16 @@
 	)
 	(wire
 		(pts
+			(xy 236.22 55.88) (xy 238.76 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42add083-6f3c-452c-9ead-b09187539e49")
+	)
+	(wire
+		(pts
 			(xy 27.94 151.13) (xy 29.21 151.13)
 		)
 		(stroke
@@ -5450,16 +5326,6 @@
 			(type default)
 		)
 		(uuid "450b7fe0-49c4-44ad-a04b-a1625f39de9e")
-	)
-	(wire
-		(pts
-			(xy 199.39 60.96) (xy 223.52 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4d2326ee-5301-4647-9d3a-221b7f909399")
 	)
 	(wire
 		(pts
@@ -5673,7 +5539,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 60.96) (xy 238.76 60.96)
+			(xy 199.39 60.96) (xy 238.76 60.96)
 		)
 		(stroke
 			(width 0)
@@ -5933,7 +5799,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 55.88) (xy 238.76 55.88)
+			(xy 223.52 55.88) (xy 236.22 55.88)
 		)
 		(stroke
 			(width 0)
@@ -5981,7 +5847,7 @@
 		)
 		(uuid "3c697972-07c8-42d3-b1b8-dff57d0ea3df")
 	)
-	(label "USP_DP"
+	(label "USB_DP"
 		(at 31.75 27.94 0)
 		(effects
 			(font
@@ -6031,7 +5897,7 @@
 		)
 		(uuid "87aec5a5-c7a4-41a9-ba96-dd25c201bd7a")
 	)
-	(label "USP_DP"
+	(label "USB_DP"
 		(at 44.45 74.93 0)
 		(effects
 			(font
@@ -6071,7 +5937,7 @@
 		)
 		(uuid "a371d3a5-246f-4293-87cd-bd0cee6a6762")
 	)
-	(label "USP_DP"
+	(label "USB_DP"
 		(at 269.24 66.04 0)
 		(effects
 			(font
@@ -6179,7 +6045,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical_SMD_Pin1Left"
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical"
 			(at 104.14 148.59 0)
 			(effects
 				(font
@@ -6222,72 +6088,6 @@
 			(project ""
 				(path "/de0f0c82-03e5-4555-b332-d1e13c605e69"
 					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 157.48 31.75 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "03144c51-cc3b-4570-812d-1b5b5854e82b")
-		(property "Reference" "#PWR020"
-			(at 157.48 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 157.48 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 157.48 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 157.48 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 157.48 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bc7fbbf5-c348-42b6-9503-6c0402868ee8")
-		)
-		(instances
-			(project "ducktape"
-				(path "/de0f0c82-03e5-4555-b332-d1e13c605e69"
-					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -6355,141 +6155,6 @@
 			(project ""
 				(path "/de0f0c82-03e5-4555-b332-d1e13c605e69"
 					(reference "C6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 254 22.86 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0721f8d8-7d12-4eed-9cee-a588c9193182")
-		(property "Reference" "#PWR09"
-			(at 254 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 254 17.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 254 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 254 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 254 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "736456fe-6ef0-42dd-8db8-26afd13cba5f")
-		)
-		(instances
-			(project "ducktape"
-				(path "/de0f0c82-03e5-4555-b332-d1e13c605e69"
-					(reference "#PWR09")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 223.52 58.42 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "199e8c98-4784-4d41-9fcb-30f2c487fde6")
-		(property "Reference" "C5"
-			(at 217.17 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1uF"
-			(at 217.17 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 223.52 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 223.52 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 223.52 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "3e4588af-f3a9-4f99-a81e-9ceadf68ff51")
-		)
-		(pin "1"
-			(uuid "ae87d355-a500-4380-8314-9d10ffdf287e")
-		)
-		(instances
-			(project ""
-				(path "/de0f0c82-03e5-4555-b332-d1e13c605e69"
-					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -6848,6 +6513,72 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 236.22 50.8 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3559a8c4-2ff2-4b21-b71f-dc9409fe3116")
+		(property "Reference" "#PWR025"
+			(at 236.22 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 236.22 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 236.22 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 236.22 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 236.22 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8769bce4-4eeb-42c1-8e10-1e65a5edc543")
+		)
+		(instances
+			(project "ducktape"
+				(path "/de0f0c82-03e5-4555-b332-d1e13c605e69"
+					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 157.48 52.07 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6976,6 +6707,141 @@
 			(project ""
 				(path "/de0f0c82-03e5-4555-b332-d1e13c605e69"
 					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 223.52 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "458fd904-623b-45e4-9791-6272c97b9730")
+		(property "Reference" "#PWR013"
+			(at 223.52 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 223.52 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 223.52 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 223.52 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 223.52 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "369bccf2-e5ad-4182-ad59-655dd09297a8")
+		)
+		(instances
+			(project "ducktape"
+				(path "/de0f0c82-03e5-4555-b332-d1e13c605e69"
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 236.22 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "47f72b7c-1dab-4a50-9485-5b2b974b5aee")
+		(property "Reference" "C8"
+			(at 229.87 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uF"
+			(at 229.87 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 236.22 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 236.22 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 236.22 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a00253f6-d6a2-467d-9df6-63002129afac")
+		)
+		(pin "1"
+			(uuid "af4285d1-4f2e-4f25-8a0b-0239a1edbb42")
+		)
+		(instances
+			(project "ducktape"
+				(path "/de0f0c82-03e5-4555-b332-d1e13c605e69"
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -7636,72 +7502,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 46.99 30.48 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "60a12e8c-1997-4bde-9c9d-956fd85c00fe")
-		(property "Reference" "#PWR06"
-			(at 46.99 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 46.99 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 46.99 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 46.99 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 46.99 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a2432234-fa2c-4e3f-bc6a-4646ba86f1de")
-		)
-		(instances
-			(project ""
-				(path "/de0f0c82-03e5-4555-b332-d1e13c605e69"
-					(reference "#PWR06")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 256.54 31.75 270)
 		(unit 1)
@@ -7829,6 +7629,72 @@
 			(project ""
 				(path "/de0f0c82-03e5-4555-b332-d1e13c605e69"
 					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 199.39 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6a5697d3-ed00-4e91-b311-5a5d84f9d923")
+		(property "Reference" "#PWR015"
+			(at 199.39 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 199.39 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 199.39 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 199.39 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 199.39 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "597177ce-3282-4686-9a9e-879bc83feae3")
+		)
+		(instances
+			(project "ducktape"
+				(path "/de0f0c82-03e5-4555-b332-d1e13c605e69"
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -8217,72 +8083,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 199.39 55.88 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "82137dc0-ac1e-4b7d-94b8-741b14e12d46")
-		(property "Reference" "#PWR015"
-			(at 199.39 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 199.39 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 199.39 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 199.39 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 199.39 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a1c45aee-ebad-4945-b063-0e1f67902a0c")
-		)
-		(instances
-			(project "ducktape"
-				(path "/de0f0c82-03e5-4555-b332-d1e13c605e69"
-					(reference "#PWR015")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 83.82 146.05 0)
 		(unit 1)
@@ -8550,6 +8350,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 157.48 31.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8befbc1a-16d6-4574-b5c5-1cdc402503bb")
+		(property "Reference" "#PWR014"
+			(at 157.48 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 157.48 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 157.48 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 157.48 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2bd294ca-4ef2-42bc-a28f-489c6f3d3f6e")
+		)
+		(instances
+			(project "ducktape"
+				(path "/de0f0c82-03e5-4555-b332-d1e13c605e69"
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 54.61 62.23 90)
 		(unit 1)
@@ -8612,72 +8478,6 @@
 			(project "ducktape"
 				(path "/de0f0c82-03e5-4555-b332-d1e13c605e69"
 					(reference "R4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 223.52 60.96 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "93e4e1fd-8518-4744-9333-dac381cafe74")
-		(property "Reference" "#PWR014"
-			(at 223.52 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 223.52 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 223.52 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 223.52 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 223.52 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c08ac2bf-e902-4dc4-83bc-e2015b4f9da7")
-		)
-		(instances
-			(project "ducktape"
-				(path "/de0f0c82-03e5-4555-b332-d1e13c605e69"
-					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -9023,71 +8823,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 78.74 148.59 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a139424f-7a47-4263-87c1-9ffdf56ddb54")
-		(property "Reference" "#PWR023"
-			(at 78.74 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 78.74 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 78.74 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 78.74 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 78.74 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5a4a3a66-044b-4ab4-858c-fdbf25ca6cf3")
-		)
-		(instances
-			(project "ducktape"
-				(path "/de0f0c82-03e5-4555-b332-d1e13c605e69"
-					(reference "#PWR023")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 264.16 41.91 0)
 		(unit 1)
@@ -9287,72 +9022,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 223.52 50.8 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b0cecf6a-a253-479a-8e10-9c3a25322daa")
-		(property "Reference" "#PWR013"
-			(at 223.52 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 223.52 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 223.52 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 223.52 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 223.52 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "388a65bd-4c0c-4745-87d7-0517f8ae43c8")
-		)
-		(instances
-			(project "ducktape"
-				(path "/de0f0c82-03e5-4555-b332-d1e13c605e69"
-					(reference "#PWR013")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 48.26 35.56 180)
 		(unit 1)
@@ -9413,6 +9082,72 @@
 			(project "ducktape"
 				(path "/de0f0c82-03e5-4555-b332-d1e13c605e69"
 					(reference "#FLG03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 46.99 30.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b4073747-9b94-4477-b605-5186bb729459")
+		(property "Reference" "#PWR06"
+			(at 46.99 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 46.99 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 46.99 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 46.99 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 46.99 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9b61fded-1959-470d-93bc-799612ebb46b")
+		)
+		(instances
+			(project ""
+				(path "/de0f0c82-03e5-4555-b332-d1e13c605e69"
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -9623,6 +9358,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 254 22.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c3e80f1a-dccf-47cf-ab0a-b72240bbe0ee")
+		(property "Reference" "#PWR09"
+			(at 254 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 254 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 254 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 254 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 254 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a4ad55d7-a1c4-4ad7-9cd6-5958a37be652")
+		)
+		(instances
+			(project "ducktape"
+				(path "/de0f0c82-03e5-4555-b332-d1e13c605e69"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "SKRPACE010:SKRPACE010")
 		(at 190.5 58.42 0)
 		(unit 1)
@@ -9792,6 +9593,72 @@
 			(project ""
 				(path "/de0f0c82-03e5-4555-b332-d1e13c605e69"
 					(reference "S1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 78.74 148.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d5f3ae34-b4f3-4f85-a224-4293ca4a3c94")
+		(property "Reference" "#PWR020"
+			(at 78.74 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 78.74 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 78.74 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 78.74 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 78.74 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "afe6f014-05c1-418d-81ed-b97320a3d345")
+		)
+		(instances
+			(project "ducktape"
+				(path "/de0f0c82-03e5-4555-b332-d1e13c605e69"
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)

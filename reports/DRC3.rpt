@@ -1,0 +1,87 @@
+** Drc report for ducktape.kicad_pcb **
+** Created on 2026-03-23T19:04:28-0500 **
+
+** Found 16 DRC violations **
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 0.3000 mm; actual 0.2717 mm)
+    Rule: board setup constraints edge; error
+    @(99.5000 mm, 50.0000 mm): Segment on Edge.Cuts
+    @(104.1505 mm, 50.3717 mm): Track [/USB_DM] on F.Cu, length 5.2685 mm
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 0.3000 mm; actual 0.2717 mm)
+    Rule: board setup constraints edge; error
+    @(99.5000 mm, 50.0000 mm): Segment on Edge.Cuts
+    @(144.9461 mm, 50.3717 mm): Track [/USB_DM] on F.Cu, length 40.7956 mm
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 0.3000 mm; actual 0.2717 mm)
+    Rule: board setup constraints edge; error
+    @(99.5000 mm, 50.0000 mm): Segment on Edge.Cuts
+    @(145.3500 mm, 50.7756 mm): Track [/USB_DM] on F.Cu, length 0.5712 mm
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 0.3000 mm; actual 0.2431 mm)
+    Rule: board setup constraints edge; error
+    @(164.5000 mm, 68.0000 mm): Segment on Edge.Cuts
+    @(156.1388 mm, 67.4569 mm): Via [/USB_DP] on F.Cu - B.Cu
+[track_dangling]: Track has unconnected end
+    Local override; warning
+    @(137.4164 mm, 58.4256 mm): Track [/FLASH_CLK] on F.Cu, length 0.6957 mm
+[track_dangling]: Track has unconnected end
+    Local override; warning
+    @(145.4017 mm, 54.7620 mm): Track [/FLASH_CS] on B.Cu, length 1.0191 mm
+[track_dangling]: Track has unconnected end
+    Local override; warning
+    @(145.4017 mm, 54.7620 mm): Track [/FLASH_CS] on F.Cu, length 1.0191 mm
+[track_dangling]: Track has unconnected end
+    Local override; warning
+    @(136.3515 mm, 54.2250 mm): Track [/FLASH_CS] on B.Cu, length 0.5121 mm
+[track_dangling]: Track has unconnected end
+    Local override; warning
+    @(136.3515 mm, 54.2250 mm): Track [/FLASH_CS] on F.Cu, length 0.5121 mm
+[track_dangling]: Track has unconnected end
+    Local override; warning
+    @(139.2889 mm, 54.0929 mm): Track [/FLASH_MISO] on B.Cu, length 0.5219 mm
+[track_dangling]: Track has unconnected end
+    Local override; warning
+    @(139.2889 mm, 54.0929 mm): Track [/FLASH_MISO] on F.Cu, length 0.5219 mm
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(164.5000 mm, 50.0000 mm): Segment on Edge.Cuts
+    @(163.6500 mm, 65.1450 mm): Segment of J2 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(164.5000 mm, 50.0000 mm): Segment on Edge.Cuts
+    @(163.6500 mm, 52.8550 mm): Segment of J2 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(99.5000 mm, 68.0000 mm): Segment on Edge.Cuts
+    @(100.0000 mm, 65.0000 mm): Reference field of J3
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(99.5000 mm, 68.0000 mm): Segment on Edge.Cuts
+    @(101.0000 mm, 63.7000 mm): Segment of J3 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(99.5000 mm, 68.0000 mm): Segment on Edge.Cuts
+    @(101.0000 mm, 54.3000 mm): Segment of J3 on F.Silkscreen
+
+** Found 5 unconnected pads **
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(95.0000 mm, 45.0000 mm): Zone [GND] on F.Cu and B.Cu, priority 0
+    @(115.5000 mm, 57.9800 mm): Pad 1 [GND] of C1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(125.0000 mm, 59.9800 mm): Pad 2 [GND] of C6 on F.Cu
+    @(95.0000 mm, 45.0000 mm): Zone [GND] on F.Cu and B.Cu, priority 0
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(95.0000 mm, 45.0000 mm): Zone [GND] on F.Cu and B.Cu, priority 0
+    @(130.5400 mm, 64.5000 mm): PTH pad 2 [GND] of J4
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(95.0000 mm, 45.0000 mm): Zone [GND] on F.Cu and B.Cu, priority 0
+    @(138.3500 mm, 52.3500 mm): Pad 64 [GND] of U4 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(95.0000 mm, 45.0000 mm): Zone [GND] on F.Cu and B.Cu, priority 0
+    @(95.0000 mm, 45.0000 mm): Zone [GND] on F.Cu and B.Cu, priority 0
+
+** Found 0 Footprint errors **
+
+** End of Report **

@@ -1,0 +1,114 @@
+** Drc report for ducktape.kicad_pcb **
+** Created on 2026-03-23T17:49:56-0500 **
+
+** Found 23 DRC violations **
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.2751 mm)
+    Rule: board setup constraints edge; error
+    @(99.5000 mm, 50.0000 mm): Segment on Edge.Cuts
+    @(111.5516 mm, 50.3751 mm): Track [Net-(J4-Pin_1)] on F.Cu, length 1.5908 mm
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.2751 mm)
+    Rule: board setup constraints edge; error
+    @(99.5000 mm, 50.0000 mm): Segment on Edge.Cuts
+    @(161.2453 mm, 50.3751 mm): Track [Net-(J4-Pin_1)] on F.Cu, length 49.6937 mm
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.2751 mm)
+    Rule: board setup constraints edge; error
+    @(99.5000 mm, 50.0000 mm): Segment on Edge.Cuts
+    @(163.6517 mm, 52.7815 mm): Track [Net-(J4-Pin_1)] on F.Cu, length 3.4032 mm
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.3766 mm)
+    Rule: board setup constraints edge; error
+    @(164.5000 mm, 68.0000 mm): Segment on Edge.Cuts
+    @(156.2723 mm, 67.3234 mm): Via [/USP_DP] on F.Cu - B.Cu
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.3664 mm)
+    Rule: board setup constraints edge; error
+    @(164.5000 mm, 68.0000 mm): Segment on Edge.Cuts
+    @(156.0621 mm, 67.5336 mm): Track [/USP_DP] on F.Cu, length 0.2973 mm
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.3664 mm)
+    Rule: board setup constraints edge; error
+    @(164.5000 mm, 68.0000 mm): Segment on Edge.Cuts
+    @(104.6847 mm, 67.5336 mm): Track [/USP_DP] on F.Cu, length 51.3774 mm
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.3664 mm)
+    Rule: board setup constraints edge; error
+    @(164.5000 mm, 68.0000 mm): Segment on Edge.Cuts
+    @(100.8111 mm, 63.6600 mm): Track [/USP_DP] on F.Cu, length 5.4781 mm
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.3207 mm)
+    Rule: board setup constraints edge; error
+    @(99.5000 mm, 50.0000 mm): Segment on Edge.Cuts
+    @(133.3593 mm, 50.4207 mm): Track [/DISP_SCL] on B.Cu, length 2.2335 mm
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.3207 mm)
+    Rule: board setup constraints edge; error
+    @(99.5000 mm, 50.0000 mm): Segment on Edge.Cuts
+    @(150.8353 mm, 50.4207 mm): Track [/DISP_SCL] on B.Cu, length 17.4760 mm
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.3207 mm)
+    Rule: board setup constraints edge; error
+    @(99.5000 mm, 50.0000 mm): Segment on Edge.Cuts
+    @(154.7724 mm, 54.3578 mm): Track [/DISP_SCL] on B.Cu, length 5.5679 mm
+[starved_thermal]: Thermal relief connection to zone incomplete (layer F.Cu; zone min spoke count 2; actual 1)
+    Local override; error
+    @(180.5000 mm, 70.0000 mm): Zone [GND] on F.Cu and B.Cu, priority 0
+    @(115.5000 mm, 64.4800 mm): Pad 2 [GND] of C6 on F.Cu
+[starved_thermal]: Thermal relief connection to zone incomplete (layer F.Cu; zone min spoke count 2; actual 1)
+    Local override; error
+    @(180.5000 mm, 70.0000 mm): Zone [GND] on F.Cu and B.Cu, priority 0
+    @(101.9500 mm, 63.3200 mm): PTH pad S1 [GND] of J3
+[starved_thermal]: Thermal relief connection to zone incomplete (layer F.Cu; zone min spoke count 2; actual 1)
+    Local override; error
+    @(180.5000 mm, 70.0000 mm): Zone [GND] on F.Cu and B.Cu, priority 0
+    @(119.7450 mm, 56.0000 mm): Pad 2 [GND] of U3 on F.Cu
+[starved_thermal]: Thermal relief connection to zone incomplete (layer F.Cu; zone min spoke count 2; actual 1)
+    Local override; error
+    @(180.5000 mm, 70.0000 mm): Zone [GND] on F.Cu and B.Cu, priority 0
+    @(139.8500 mm, 52.3500 mm): Pad 64 [GND] of U4 on F.Cu
+[starved_thermal]: Thermal relief connection to zone incomplete (layer F.Cu; zone min spoke count 2; actual 1)
+    Local override; error
+    @(180.5000 mm, 70.0000 mm): Zone [GND] on F.Cu and B.Cu, priority 0
+    @(153.8500 mm, 52.3500 mm): Pad 63 [GND] of U4 on F.Cu
+[starved_thermal]: Thermal relief connection to zone incomplete (layer F.Cu; zone min spoke count 2; actual 1)
+    Local override; error
+    @(180.5000 mm, 70.0000 mm): Zone [GND] on F.Cu and B.Cu, priority 0
+    @(128.9250 mm, 57.4250 mm): Pad 1 [GND] of S1 on F.Cu
+[starved_thermal]: Thermal relief connection to zone incomplete (layer F.Cu; zone min spoke count 2; actual 1)
+    Local override; error
+    @(180.5000 mm, 70.0000 mm): Zone [GND] on F.Cu and B.Cu, priority 0
+    @(103.4900 mm, 65.0000 mm): Pad 2 [GND] of R4 on F.Cu
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(164.5000 mm, 50.0000 mm): Segment on Edge.Cuts
+    @(163.6500 mm, 65.1450 mm): Segment of J2 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(164.5000 mm, 50.0000 mm): Segment on Edge.Cuts
+    @(163.6500 mm, 52.8550 mm): Segment of J2 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(99.5000 mm, 68.0000 mm): Segment on Edge.Cuts
+    @(100.0000 mm, 65.0000 mm): Reference field of J3
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(99.5000 mm, 68.0000 mm): Segment on Edge.Cuts
+    @(101.0000 mm, 63.7000 mm): Segment of J3 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(99.5000 mm, 68.0000 mm): Segment on Edge.Cuts
+    @(101.0000 mm, 54.3000 mm): Segment of J3 on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(154.8250 mm, 65.3000 mm): Polygon of U4 on F.Silkscreen
+    @(156.0000 mm, 64.9400 mm): Reference field of C4
+
+** Found 3 unconnected pads **
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(180.5000 mm, 70.0000 mm): Zone [GND] on F.Cu and B.Cu, priority 0
+    @(180.5000 mm, 70.0000 mm): Zone [GND] on F.Cu and B.Cu, priority 0
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(180.5000 mm, 70.0000 mm): Zone [GND] on F.Cu and B.Cu, priority 0
+    @(180.5000 mm, 70.0000 mm): Zone [GND] on F.Cu and B.Cu, priority 0
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(180.5000 mm, 70.0000 mm): Zone [GND] on F.Cu and B.Cu, priority 0
+    @(180.5000 mm, 70.0000 mm): Zone [GND] on F.Cu and B.Cu, priority 0
+
+** Found 0 Footprint errors **
+
+** End of Report **

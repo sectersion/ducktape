@@ -1,0 +1,54 @@
+** Drc report for ducktape.kicad_pcb **
+** Created on 2026-03-23T18:03:49-0500 **
+
+** Found 8 DRC violations **
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 0.3000 mm; actual 0.2751 mm)
+    Rule: board setup constraints edge; error
+    @(99.5000 mm, 50.0000 mm): Segment on Edge.Cuts
+    @(111.5516 mm, 50.3751 mm): Track [Net-(J4-Pin_1)] on F.Cu, length 1.5908 mm
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 0.3000 mm; actual 0.2751 mm)
+    Rule: board setup constraints edge; error
+    @(99.5000 mm, 50.0000 mm): Segment on Edge.Cuts
+    @(161.2453 mm, 50.3751 mm): Track [Net-(J4-Pin_1)] on F.Cu, length 49.6937 mm
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 0.3000 mm; actual 0.2751 mm)
+    Rule: board setup constraints edge; error
+    @(99.5000 mm, 50.0000 mm): Segment on Edge.Cuts
+    @(163.6517 mm, 52.7815 mm): Track [Net-(J4-Pin_1)] on F.Cu, length 3.4032 mm
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(164.5000 mm, 50.0000 mm): Segment on Edge.Cuts
+    @(163.6500 mm, 65.1450 mm): Segment of J2 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(164.5000 mm, 50.0000 mm): Segment on Edge.Cuts
+    @(163.6500 mm, 52.8550 mm): Segment of J2 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(99.5000 mm, 68.0000 mm): Segment on Edge.Cuts
+    @(100.0000 mm, 65.0000 mm): Reference field of J3
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(99.5000 mm, 68.0000 mm): Segment on Edge.Cuts
+    @(101.0000 mm, 63.7000 mm): Segment of J3 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(99.5000 mm, 68.0000 mm): Segment on Edge.Cuts
+    @(101.0000 mm, 54.3000 mm): Segment of J3 on F.Silkscreen
+
+** Found 3 unconnected pads **
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(180.5000 mm, 70.0000 mm): Zone [GND] on F.Cu and B.Cu, priority 0
+    @(180.5000 mm, 70.0000 mm): Zone [GND] on F.Cu and B.Cu, priority 0
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(180.5000 mm, 70.0000 mm): Zone [GND] on F.Cu and B.Cu, priority 0
+    @(180.5000 mm, 70.0000 mm): Zone [GND] on F.Cu and B.Cu, priority 0
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(180.5000 mm, 70.0000 mm): Zone [GND] on F.Cu and B.Cu, priority 0
+    @(180.5000 mm, 70.0000 mm): Zone [GND] on F.Cu and B.Cu, priority 0
+
+** Found 0 Footprint errors **
+
+** End of Report **
